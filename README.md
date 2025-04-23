@@ -1,32 +1,34 @@
 # 23111022441004_RICKY-JOAN-FADILAH_DJANGO
 
-1. buat folder .venv (disini saya memakai .venv)
+# Personal Portfolio
 
-2. masuk folder .venv dan buat virtualenv menggunakan perintah 
- ```
- py -m venv .venv
- ```
-3. aktifkan .venv dengan ketik 
- ```
- cd .venv/Scripts
- ```
-4. setelah masuk di dalam folder Scripts, ketik 
- ```
-activate
- ```
-5. jika .venv telah aktif, kita bisa melanjutkan menginstall django dengan mengetik
- ```
- pip install django
- ```
-6. untuk mengetahui library django terinstall, ketik 
- ```
- pip list
- ```
-7. selanjutnya kita akan membuat project django dengan mengetik 
- ```
- "django-admin startproject portofolio"
- ``` 
- 8. untuk mengecek django terinstal, ketik 
- ```
- py manage.py runserver
- ```
+[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](#)
+[![Django](https://img.shields.io/badge/Django-%23092E20.svg?logo=django&logoColor=white)](#)
+
+
+## Deskripsi Singkat
+Membuat template pada website potofolio
+
+## Ada apa saja di website ini
+1. membuat templates dashboard
+2. membuat templates halaman
+
+
+# Cara menjalankan project
+1. salin projek
+```
+git clone https://github.com/Jojowazhere/23111022441004_RICKY-JOAN-FADILAH_DJANGO.git
+```
+2. Aktifkan .venv 
+```
+.venv\Scripts\activate
+```
+3. mulai server
+```
+py manage.py runserver
+```
+4. Jika server sudah jalan maka akan muncul halaman website
+
+5. jika ingin pindah ke dashbord
+```
+http://127.0.0.1:8000/dashboard/
